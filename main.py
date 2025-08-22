@@ -12,7 +12,7 @@ def get_book_text(path_to_file):
         return f.read()
 
 def main():
-    text = get_book_text('books/frankenstein.txt')
+    text = get_book_text(path_to_file)
     num_words = get_number_of_words(text)
     char_count = get_character_count(text)
     print(f'Found {num_words} total words')
